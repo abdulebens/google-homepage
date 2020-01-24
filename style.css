@@ -60,7 +60,8 @@ nav .sign:hover {
 .search-field {
     width: 90%;
     height: 30px;
-    border: 0;
+    border: none;
+    outline: none;
     background-color: transparent;
 }
 .search-btn {
