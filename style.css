@@ -5,6 +5,7 @@
 }
 body {
     font-family: sans-serif;
+    font-size: 2em;
     display: flex;
     height: 100vh;
     font-size: 100%;
@@ -41,17 +42,26 @@ nav .sign {
 nav .sign:hover {
     text-decoration: none;
 }
-.search-field {
+.search-container{
     width: 40%;
     height: 50px;
-    padding: 10px 10px 10px 15px;
+    padding: 8px 8px 8px 10px;
     border-radius: 22px;
     outline: none;
     border: 1px solid lightgray;
-    margin: 15px;
+    margin: auto;
 }
-.search-field:hover {
+.search-container:hover {
     box-shadow: 0 0 7px lightgray;
+}
+.search-container span {
+    margin-right: 8px;
+}
+.search-field {
+    width: 90%;
+    height: 30px;
+    border: 0;
+    background-color: transparent;
 }
 .search-btn {
     padding: 7px 10px;
@@ -104,7 +114,7 @@ footer .right-links {
     body {
     font-size: 2em;
     }
-    .search-field {
+    .search-container {
         width: 75%;
     }
     footer div  {
